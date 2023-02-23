@@ -1,8 +1,88 @@
+*{
+    margin:0;
+}
 body {
-    background-color: bisque;
+    background-color:#728d47;
+    font-family:'Lucida Sans', 'Roboto';
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.navbar {
+	background-color:rgb(9, 102, 25);
+}
+.navbar a {
+	display:inline-block;
+	padding: 8px;
+	width: 1800;
+	text-align: center;
+    width: 100%;
+	color: #FFF;
+}
+.navbar a:hover {
+	background: rgb(224, 171, 24);
+	color: #fff;
+	text-decoration: none;
+}
+.container {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.imagecontainer img {
+	width: 100%;
+	height: 600;
+	vertical-align: top;
+	object-position: 0 bottom;
 }
 .menu {
     font-style: italic;
     font-weight: bold;
-    color:crimson;
+    color:rgb(224, 171, 24);
+    
 }
+.menucontent {
+    margin: 60px;
+}
+.blogtitle {
+    color:darkgreen;
+    text-align: center;
+
+}
+.title{
+    color:rgb(9, 102, 25);
+    text-align: center;
+    font-style: oblique;
+    font-size:xx-large;
+    font-family: Impact;
+    font-display:initial;
+    max-height: fit-content;
+    background-color: #FFF;
+}
+.slogan {
+    color:rgb(224, 171, 24);
+    text-align: center;
+    background-color: #FFF;
+    font-family: Gill Sans;
+    font-size:medium;
+    
+}
+.menucontent {
+    color:rgb(224, 171, 24);
+}
+.horoscope {
+    margin:100;
+    color:rgb(224, 171, 24);
+}
+.subtitle {
+    text-align: center;
+    color: rgb(9, 102, 25);
+}
+
+img {
+    display: block;
+    margin: auto;
+  }
