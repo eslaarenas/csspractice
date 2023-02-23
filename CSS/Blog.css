@@ -86,3 +86,19 @@ img {
     display: block;
     margin: auto;
   }
+#secwhat {
+    text-align: center;
+    color:#FFF;
+  }
+#sechow {
+    text-align: center;
+    color:#FFF;
+  }
+#secsign {
+    text-align: center;
+    color:#FFF;
+}
+ .final {
+    text-align: center;
+    color:#FFF;
+ }
