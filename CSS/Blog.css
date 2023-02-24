@@ -2,20 +2,15 @@
     margin:0;
 }
 body {
-    background-color:#728d47;
-    font-family:'Lucida Sans', 'Roboto';
-}
-
-a:hover {
-	text-decoration: underline;
+    background-image: linear-gradient(rgba(53, 224, 31, 0.63), rgba(133, 131, 21, 0.623), rgba(138, 146, 25, 0.582));;
+    font-family: gloock;
 }
 .navbar {
 	background-color:rgb(9, 102, 25);
 }
-.navbar a {
+a {
 	display:inline-block;
 	padding: 8px;
-	width: 1800;
 	text-align: center;
     width: 100%;
 	color: #FFF;
@@ -24,6 +19,7 @@ a:hover {
 	background: rgb(224, 171, 24);
 	color: #fff;
 	text-decoration: none;
+    opacity: 0.6;
 }
 .container {
 	max-width: 1000px;
@@ -34,23 +30,22 @@ a:hover {
 }
 .imagecontainer img {
 	width: 100%;
-	height: 600;
+	height: 900;
 	vertical-align: top;
 	object-position: 0 bottom;
 }
 .menu {
     font-style: italic;
     font-weight: bold;
-    color:rgb(224, 171, 24);
-    
+    color:rgb(224, 171, 24);   
 }
 .menucontent {
     margin: 60px;
+    color:rgb(224, 171, 24); 
 }
 .blogtitle {
     color:darkgreen;
     text-align: center;
-
 }
 .title{
     color:rgb(9, 102, 25);
@@ -61,17 +56,13 @@ a:hover {
     font-display:initial;
     max-height: fit-content;
     background-color: #FFF;
+    font-weight: 700;
 }
 .slogan {
     color:rgb(224, 171, 24);
     text-align: center;
     background-color: #FFF;
-    font-family: Gill Sans;
-    font-size:medium;
-    
-}
-.menucontent {
-    color:rgb(224, 171, 24);
+    font-size:medium;    
 }
 .horoscope {
     margin:100;
@@ -86,19 +77,14 @@ img {
     display: block;
     margin: auto;
   }
-#secwhat {
+#secwhat, #sechow, #secsign {
     text-align: center;
     color:#FFF;
   }
-#sechow {
-    text-align: center;
-    color:#FFF;
-  }
-#secsign {
-    text-align: center;
-    color:#FFF;
-}
  .final {
     text-align: center;
     color:#FFF;
  }
+.important {
+    font-style:italic;
+}
